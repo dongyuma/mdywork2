@@ -1,0 +1,31 @@
+{
+  "default_string_map" : [
+    {"1": "1", "2": "2", "3": "3", "4": "4"},
+    {"1": "fi", "2": "pi", "3": "ga"},
+    {"1": "a", "2": "b", "3": "c"},
+    {"1": "phi", "2": "psai", "3": "gamma"},
+    {"1": "x", "2": "y", "3": "z"},
+    {"1": "fai", "2": "psi", "3": "gam"},
+    {"1": "f", "2": "p", "3": "g"},
+    {"1": "arrayindex0", "2": "arrayindex1", "3": "arrayindex2", "4": "arrayindex3"}
+  ],
+  "custom_string_map" : [
+    {"10": "dwN**f", "11": "dwN**z"},
+    {"10": "N", "11": "P"},
+    {"20": "Acce", "21": "Gyro"},
+    {"20": "Na**", "21": "Ng**"}
+  ],
+  "custom_case_sensitive" : true,
+
+  "negative_string_vector" : ["temp"],
+
+  "nested_variable_check_mode" : "whole",
+
+  "mutex_string_map" : {
+    "1": ["rjz_dem2_data[0]", "rjz_dem2_data[1]", "rjz_dem2_data[2]"],
+    "2": ["child_x", "child_y", "child_z"]
+  },
+
+  "struct_default_alignment" : 4,
+  "double_assign_arr_negative_vec" : ["Temp"]
+}
